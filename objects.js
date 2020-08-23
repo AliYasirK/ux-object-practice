@@ -155,11 +155,11 @@ function describePlant(plant) {
 */
 
 function describeGarden(gardenName, listOfPlants) {
-  let description = "The " + gardenName + " has 10 types of plants in it, it contains:" + listOfPlants;
 
   
   // Your Code Here!
   // Given a list of plants, describe every plant in the list.
+  let description = "the " + gardenName + "has 10 types of plants in it. It contains:" + listOfPlants;
   // return a string which is the description.
   // Hint: You can just call describePlant() for each plant in the list
   // Concatenting the description for each plant together into one big string.
@@ -173,10 +173,11 @@ function describeGarden(gardenName, listOfPlants) {
 * This should describe every garden and every plant.
 */
 function describeEstate(estate) {
-  let description = "";
   // Your Code Here!
 
   // Return a string describing all the different visual features of all the gardens in the estate.
+    let description = "";
+
   // Feel free to make up various details.  
   // Hint: You can call describeGarden() for each garden of the estate.
   return description
