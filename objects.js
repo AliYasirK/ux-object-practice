@@ -234,5 +234,5 @@ myEstate.describe(); // This should print the whole description of the estate.
 
 myEstate.calculateWaterUsagePerWeek(); // This should print 2.8
 
-myEstate.cloneAllTheRosesAndChangeTheirColors(); // This should clone the rose and make a second one.
+myEstate.cloneAllTheRosesAndChangeTheirColors();
 console.log(myEstate.roseArbor.plants.length == 2);
